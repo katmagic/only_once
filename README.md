@@ -26,3 +26,9 @@ And one more example just to clarify:
 	x(1)
 	x(1)
 	x(2)
+
+License
+-------
+
+This is free and unencumbered software released into the public domain. See
+[unlicense.org](http://unlicense.org/).

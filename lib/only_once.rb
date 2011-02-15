@@ -1,4 +1,5 @@
 #!/usr/bin/ruby
+# This is free and unencumbered software released into the public domain.
 
 # Do something, but only once (in the lifetime of the program). This is based on
 # the output of caller() and the value of _args_, so there's some possibility
