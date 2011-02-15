@@ -9,11 +9,12 @@ this out by the location of the call and the arguments given.
 		only_once(i%2){ puts 'This will be executed twice.' }
 	end
 
-As you can see, `only_once()` can take arguments. If the set of arguments given
-to it is unique (or, more accurately, if the array of arguments given the first
-time it was called at a particular location decide that the array of arguments
-given in the current invocation are equivalent to them (by means of the `==()`
-method of the first argument array given)).
+As you can see, `only_once()` can take arguments. Only if the set of arguments
+given to it is unique (or, more accurately, if the array of arguments given the
+first time it was called at a particular location decide that the array of
+arguments given in the current invocation are equivalent to them (by means of
+the `==()` method of the first argument array given)) then the block will be
+executed.
 
 And one more example just to clarify:
 
