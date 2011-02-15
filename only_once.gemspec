@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
 	s.name = 'only_once'
-	s.version = '0.1'
+	s.version = '0.1.2'
 	s.date = Time.now.strftime("%a %b %d, %Y")
 	s.summary = 'Execute something, but only once.'
 	s.description = 'Run a block only once during the lifetime of a program.'
